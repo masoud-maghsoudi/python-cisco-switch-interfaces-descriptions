@@ -1,0 +1,32 @@
+##########################################
+#  Interface Configuration Template
+#
+#  device_list:
+#    - 'X.X.X.X'
+#    - 'Y.Y.Y.Y'
+#    - IP Address in the format above
+#
+#  user_vlan:
+#    - vlan_id
+#
+#  router:
+#    - Router IP Address in the format above
+#
+#  dns_server:
+#    - DNS server IP Address in the format above
+#
+##########################################
+
+switch_list:
+  - '10.0.0.1'
+  - '172.16.0.1'
+  - '192.168.0.1'
+
+user_vlan:
+  - '10'
+
+router:
+  - '192.168.0.2'
+
+dns_server_list:
+  - '8.8.8.8'
