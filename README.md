@@ -11,7 +11,13 @@ This script is written in Python using [netmiko](https://github.com/ktbyers/netm
 For disabled interfaces, we set _Disabled by Admin_ description.
 For ports with more than active 1 MAC address, in the case that it has no description we set _Multi User_ description, otherwise we would not change the interface description, but list them all in a report file.
 
----
-Github: https://github.com/masoud-maghsoudi
+## License
 
-Email: masoud_maghsoudi@yahoo.com
+MIT
+
+## Author Information
+
+| Author | Masoud Maghsoudi                      |
+| ------ | ------------------------------------- |
+| Email  | <masoud_maghsopudi@yahoo.com>         |
+| Github | <https://github.com/masoud-maghsoudi> |
